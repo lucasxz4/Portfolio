@@ -41,52 +41,20 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap: 15px;
+        height: 90%;
     }
     main > .one > h1 {
         font-family: 'Krona One';
         color: var(--color-1);
         font-size: 1.3em;
-    }
-    main > .one > h1 > strong {
-        color: var(--color-3);
+        text-align: center;
     }
     main > .one > p {
         font-family: 'Montserrat';
         color: var(--color-1);
+        line-height: 1.5;
+        padding: 0px 5px;
     }
-    h2 {
-        font-family: 'Montserrat';
-        color: var(--color-1);
-        text-align: center;
-        font-size: 1.3em;
-        margin-top: 20px;
-    }
-    .two {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 35%;
-    }
-    .two > a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: var(--color-1);
-        border: 1px solid var(--color-3);
-        border-radius: 10px;
-        width: 50%;
-        font-family: 'Montserrat';
-        font-weight: 500;
-    }
-    .two > a:hover {
-        transition: 0.5s;
-        background-color: #272727;
-    }
-
-
     footer {
         position: absolute;
         bottom: 0;
